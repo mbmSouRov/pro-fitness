@@ -1,17 +1,18 @@
 import React, { useState } from "react";
+import { addToDb, getListedCart } from "../../Utilities/fakeDB";
 import "./Calculation.css";
 const Calculation = ({ listedExc }) => {
   let totalEtime = 0;
-  // let breakTime = 0;
+
+  console.log(getListedCart());
 
   for (const excersise of listedExc) {
     totalEtime = totalEtime + parseInt(excersise.timerequired);
   }
 
-  const [breakTime, setBreaktime] = useState(0);
-
+  const [breakTime, setBreaktime] = useState(getListedCart());
   const newBreakTime = (Time) => {
-    // let newTime = breakTime + Time;
+    addToDb(Time);
     setBreaktime(Time);
   };
 
