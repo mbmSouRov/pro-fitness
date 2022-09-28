@@ -1,0 +1,25 @@
+.card {
+  border-radius: 25px;
+}
+.card img {
+  border-radius: 25px;
+  padding: 10px;
+  height: 190px;
+}
+.card a {
+  width: 100%;
+  text-align: center;
+  padding: 3px 20px;
+}
+.card h6 {
+  font-weight: bold;
+}
+.card p {
+  font-weight: lighter;
+  font-size: smaller;
+  margin: 5px;
+  font-size: x-small;
+}
+.card span {
+  font-weight: normal;
+}

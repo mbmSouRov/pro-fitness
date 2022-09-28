@@ -1,0 +1,29 @@
+.calculation {
+  background-color: rgb(206, 227, 246);
+}
+.personal-details img {
+  height: 25%;
+  width: 25%;
+  border-radius: 50px;
+}
+.personal-info h5 {
+  margin-bottom: 0;
+}
+.personal-info p {
+  font-size: x-small;
+}
+.calculation ul {
+  margin: 20px 10%;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: rgb(92, 173, 227);
+  list-style: none;
+}
+.calculation ul p {
+  color: whitesmoke;
+}
+.excTime,
+.brkTime,
+.activity-btn {
+  background-color: rgb(92, 173, 227);
+}
