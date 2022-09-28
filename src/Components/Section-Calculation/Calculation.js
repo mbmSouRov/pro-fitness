@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 import { addToDb, getListedCart } from "../../Utilities/fakeDB";
 import "./Calculation.css";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const Calculation = ({ listedExc }) => {
+  const notify = () =>
+    toast("Congrates! You Are Done", { position: toast.POSITION.TOP_CENTER });
   let totalEtime = 0;
 
   console.log(getListedCart());
@@ -96,9 +100,13 @@ const Calculation = ({ listedExc }) => {
         <p className="m-0 text-white">{breakTime} seconds</p>
       </div>
 
-      <button className="activity-btn w-75 border-0 mx-lg-4 mt-lg-4 rounded text-white bg-primary mx-3 mt-4">
+      <button
+        onClick={notify}
+        className="activity-btn w-75 border-0 mx-lg-4 mt-lg-4 rounded text-white bg-primary mx-3 mt-4"
+      >
         Activity Completed
       </button>
+      <ToastContainer />
     </div>
   );
 };
