@@ -1,7 +1,7 @@
 import React from "react";
 import img1 from "../../Images/full-shot-man-doing-lunges.jpg";
 import "./Excercises.css";
-const Excercises = ({ data }) => {
+const Excercises = ({ data, addToList }) => {
   const { timerequired, forAge, name } = data;
   return (
     <div className="excersises">
@@ -19,9 +19,15 @@ const Excercises = ({ data }) => {
           <p>
             Time requried: <span>{timerequired}s</span>
           </p>
-          <a href="{#}" className="btn btn-primary">
+          <button
+            onClick={() => {
+              addToList(data);
+            }}
+            href="{#}"
+            className="btn btn-primary"
+          >
             Add To List
-          </a>
+          </button>
         </div>
       </div>
     </div>

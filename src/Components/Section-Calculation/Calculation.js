@@ -1,8 +1,16 @@
 import React from "react";
 import "./Calculation.css";
-const Calculation = () => {
+const Calculation = ({ listedExc }) => {
+  let totalEtime = 0;
+  let breakTime = 0;
+
+  for (const excersise of listedExc) {
+    totalEtime = totalEtime + parseInt(excersise.timerequired);
+  }
+
   return (
     <div className="calculation col-lg-3">
+      {/* Hard Codded Personal Information */}
       <div className="personal-details d-flex justify-content-evenly align-items-start mt-5">
         <img
           src="https://scontent.fdac27-2.fna.fbcdn.net/v/t39.30808-6/306545363_3232975053624669_2038473705134601153_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=21aoHj-SIV8AX8JZcQg&tn=LoSgtuaeKoPbqshM&_nc_ht=scontent.fdac27-2.fna&oh=00_AT8Cn8cSJx_Res4O7OHjUOI9qqSjKPflUqfdzbjMoPD6Pw&oe=63395500"
@@ -13,7 +21,7 @@ const Calculation = () => {
           <p>Dhaka, Bangladesh</p>
         </div>
       </div>
-
+      {/* Hard Codded Personal Information */}
       <div>
         <ul className="d-flex justify-content-between align-items-center">
           <li>
@@ -30,9 +38,8 @@ const Calculation = () => {
           </li>
         </ul>
       </div>
-
       <h6 className="text-center">Add a break</h6>
-
+      {/* Time Buttons */}
       <div>
         <ul className="d-flex justify-content-between list-unstyled">
           <button className="rounded-5 p-1 bg-white border-0 ">10s</button>
@@ -46,12 +53,12 @@ const Calculation = () => {
       <h6 className="p-2">Excercise Details</h6>
       <div className="excTime d-flex justify-content-between p-2 rounded-2 m-2 ">
         <p className="m-0 text-white">Excercise Time</p>
-        <p className="m-0 text-white">0 seconds</p>
+        <p className="m-0 text-white">{totalEtime} seconds</p>
       </div>
 
       <div className="d-flex justify-content-between p-2  rounded-2 m-2 brkTime">
         <p className="m-0 text-white">Break Time</p>
-        <p className="m-0 text-white">0 seconds</p>
+        <p className="m-0 text-white">{breakTime} seconds</p>
       </div>
 
       <button className="activity-btn w-75 border-0 mx-4 mt-4 rounded text-white bg-primary">
