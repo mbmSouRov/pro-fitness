@@ -3,3 +3,10 @@
   gap: 10px;
   grid-template-columns: repeat(3, 1fr);
 }
+
+@media screen and (max-width: 780px) {
+  .excersiseList {
+    display: flex;
+    flex-direction: column;
+  }
+}

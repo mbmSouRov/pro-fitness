@@ -30,18 +30,18 @@ const Calculation = ({ listedExc }) => {
         </div>
       </div>
       {/* Hard Codded Personal Information */}
-      <div>
+      <div className="info-section">
         <ul className="d-flex justify-content-between align-items-center">
           <li>
-            <p className="text-center text-lg-start m-0">55 kg</p>
+            <p className="text-center m-0">55 kg</p>
             <p className="text-center m-0">Weight</p>
           </li>
           <li>
-            <p className="text-center text-lg-start m-0">5'6"</p>
+            <p className="text-center  m-0">5'6"</p>
             <p className="text-center m-0">Height</p>
           </li>
           <li>
-            <p className="text-center text-lg-start m-0">25 yrs</p>
+            <p className="text-center  m-0">25 yrs</p>
             <p className="text-center m-0">Age</p>
           </li>
         </ul>
@@ -96,7 +96,7 @@ const Calculation = ({ listedExc }) => {
         <p className="m-0 text-white">{breakTime} seconds</p>
       </div>
 
-      <button className="activity-btn w-75 border-0 mx-4 mt-4 rounded text-white bg-primary">
+      <button className="activity-btn w-75 border-0 mx-lg-4 mt-lg-4 rounded text-white bg-primary mx-3 mt-4">
         Activity Completed
       </button>
     </div>
