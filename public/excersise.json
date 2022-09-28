@@ -1,56 +1,56 @@
 [
   {
     "id": "6334782da6a1a3e0b6c4f35f",
-    "name": "dumble",
+    "name": "Incline Push-Ups",
     "index": 0,
-    "details": "some details",
+    "details": "Your arms should be shoulder height and shoulder-width apart.",
     "forAge": "20-24",
-    "picture": "http://placehold.it/32x32",
+    "picture": "https://www.aleanlife.com/wp-content/uploads/2021/02/incline-push-up.jpg?ezimgfmt=rs%3Adevice%2Frscb2-1",
     "timerequired": "32"
   },
   {
     "id": "6334782d7677d7422f2d1c2a",
-    "name": "dumble",
+    "name": "Cobra Stretch",
     "index": 1,
-    "details": "some details",
+    "details": "Press your arms down to the ground pulling your shoulders down and away from your ears",
     "forAge": "21-24",
-    "picture": "http://placehold.it/32x32",
+    "picture": "https://img.freepik.com/premium-vector/woman-standing-cobra-pose-girl-doing-pilates-fitness-yoga-exercises-mat-healthy-lifestyle-workout-vector-illustration_263366-703.jpg?w=740",
     "timerequired": "30"
   },
   {
     "id": "6334782dcea96598c21b0d9d",
-    "name": "dumble",
+    "name": "Jumping Jacks",
     "index": 2,
-    "details": "some details",
+    "details": "Start with your feet together then  jump up with feet and apart.",
     "forAge": "21-25",
-    "picture": "http://placehold.it/32x32",
+    "picture": "https://www.workoutsprograms.com/media/cache/exercise_375/uploads/exercise/tijeras-o-saltos-abriendo-y-cerrando-piernas-simultaneamente--4156%20.png",
     "timerequired": "34"
   },
   {
     "id": "6334782dad476d3628d45954",
-    "name": "dumble",
+    "name": "Squats",
     "index": 3,
-    "details": "some details",
+    "details": "Feet and shoulder wide apart, arm stretched forward",
     "forAge": "21-25",
-    "picture": "http://placehold.it/32x32",
+    "picture": "https://media.istockphoto.com/vectors/exercise-guide-by-woman-doing-squat-jump-in-3-steps-in-side-view-vector-id1131508527",
     "timerequired": "32"
   },
   {
     "id": "6334782d923a19b9be167c05",
-    "name": "dumble",
+    "name": "Backward Lunge",
     "index": 4,
-    "details": "some details",
+    "details": "Hand on hips and take a big step backward with right leg",
     "forAge": "20-25",
-    "picture": "http://placehold.it/32x32",
+    "picture": "https://media.istockphoto.com/vectors/woman-doing-hip-flexor-stretches-to-release-tightness-and-gain-in-vector-id1154101233",
     "timerequired": "35"
   },
   {
     "id": "6334782d2889b167033ce40e",
-    "name": "dumble",
+    "name": "Plank",
     "index": 5,
-    "details": "some details",
+    "details": "Lie on the floor and forarms on the ground. Keep body Straight",
     "forAge": "20-23",
-    "picture": "http://placehold.it/32x32",
+    "picture": "https://media.istockphoto.com/id/1204463032/vector/woman-doing-plank-exercise-on-blue-mat-with-stopclock-symbol-over-her-head.webp?s=612x612&w=is&k=20&c=8Ybw-t3ecBSZzXdHRWNDkwky-yA0pxtcEF2_oeyBI3A=",
     "timerequired": "33"
   }
 ]

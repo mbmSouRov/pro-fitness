@@ -18,7 +18,7 @@ const Homepage = () => {
   };
 
   return (
-    <div className="mx-1 mb-5 d-flex justify-content-between homepage">
+    <div className="mx-1 d-flex justify-content-between homepage">
       <Activity data={excercises} addToList={addToList}></Activity>
       <Calculation listedExc={list}></Calculation>
     </div>

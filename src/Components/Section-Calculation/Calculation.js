@@ -1,12 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Calculation.css";
 const Calculation = ({ listedExc }) => {
   let totalEtime = 0;
-  let breakTime = 0;
+  // let breakTime = 0;
 
   for (const excersise of listedExc) {
     totalEtime = totalEtime + parseInt(excersise.timerequired);
   }
+
+  const [breakTime, setBreaktime] = useState(0);
+
+  const newBreakTime = (Time) => {
+    // let newTime = breakTime + Time;
+    setBreaktime(Time);
+  };
 
   return (
     <div className="calculation col-lg-3">
@@ -40,13 +47,40 @@ const Calculation = ({ listedExc }) => {
       </div>
       <h6 className="text-center">Add a break</h6>
       {/* Time Buttons */}
-      <div>
-        <ul className="d-flex justify-content-between list-unstyled">
-          <button className="rounded-5 p-1 bg-white border-0 ">10s</button>
-          <button className="rounded-5 p-1 bg-white border-0 ">20s</button>
-          <button className="rounded-5 p-1 bg-white border-0 ">30s</button>
-          <button className="rounded-5 p-1 bg-white border-0 ">40s</button>
-          <button className="rounded-5 p-1 bg-white border-0 ">50s</button>
+      <div className="breakBtn">
+        <ul className=" d-flex justify-content-between list-unstyled">
+          <button
+            className="rounded-5 p-1  border-0 "
+            onClick={() => {
+              newBreakTime(10);
+            }}
+          >
+            <span>10</span>s
+          </button>
+          <button
+            className="rounded-5 p-1 border-0 "
+            onClick={() => {
+              newBreakTime(20);
+            }}
+          >
+            <span>20</span>s
+          </button>
+          <button
+            className="rounded-5 p-1  border-0 "
+            onClick={() => {
+              newBreakTime(30);
+            }}
+          >
+            <span>30</span>s
+          </button>
+          <button
+            className="rounded-5 p-1  border-0 "
+            onClick={() => {
+              newBreakTime(40);
+            }}
+          >
+            <span>40</span>s
+          </button>
         </ul>
       </div>
 

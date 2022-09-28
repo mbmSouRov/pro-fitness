@@ -27,3 +27,7 @@
 .activity-btn {
   background-color: rgb(92, 173, 227);
 }
+.breakBtn button:hover {
+  background-color: rgb(68, 24, 93);
+  color: whitesmoke;
+}
