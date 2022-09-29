@@ -4,7 +4,7 @@ import { faDumbbell } from "@fortawesome/free-solid-svg-icons";
 import "./Activity.css";
 const Activity = ({ data, addToList }) => {
   return (
-    <div className="col-9 p-lg-4 pt-5">
+    <div className="col-lg-9 p-lg-4 pt-5 col-6">
       <div className="mb-5">
         <h3 className="text-lg-start text-primary">
           <FontAwesomeIcon icon={faDumbbell}></FontAwesomeIcon>Pro Fitness

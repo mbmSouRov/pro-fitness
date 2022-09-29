@@ -41,7 +41,13 @@
   .personal-details {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 5px;
+  }
+  .personal-details h5,
+  p {
+    text-align: center;
   }
   .breakBtn ul {
     display: flex;

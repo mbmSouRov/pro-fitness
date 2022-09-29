@@ -21,9 +21,9 @@ const Calculation = ({ listedExc }) => {
   };
 
   return (
-    <div className="calculation col-lg-3">
+    <div className="calculation col-lg-3 col-4">
       {/* Hard Codded Personal Information */}
-      <div className="personal-details d-flex justify-content-evenly align-items-start mt-5">
+      <div className="personal-details d-lg-flex justify-content-lg-evenly align-items-lg-start mt-5 ">
         <img
           src="https://scontent.fdac27-2.fna.fbcdn.net/v/t39.30808-6/306545363_3232975053624669_2038473705134601153_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=21aoHj-SIV8AX8JZcQg&tn=LoSgtuaeKoPbqshM&_nc_ht=scontent.fdac27-2.fna&oh=00_AT8Cn8cSJx_Res4O7OHjUOI9qqSjKPflUqfdzbjMoPD6Pw&oe=63395500"
           alt=""
